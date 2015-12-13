@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="../bower_components/bootstrap/dist/css/bootstrap.css">
+
+  <link rel="stylesheet" type="text/css" href="statics/styles/AdminLTE.css">
+</head>
+<body class="skin-blue">
+  <header ng-include="'_common/_header.html'" class="header"></header>
+
+  <div class="wrapper row-offcanvas row-offcanvas-left">
+            <!-- Left side column. contains the logo and sidebar -->
+           <div ng-include="'_common/_left_side.html'"></div>
+
+            <!-- Right side column. Contains the navbar and content of the page -->
+            <aside class="right-side">
+              <div ng-view></div>
+            </aside><!-- /.right-side -->
+  </div><!-- ./wrapper -->
+
+  <footer ng-include="'_common/_footer.html'" class="footer"></footer>
+<script data-main="main.js" src="../bower_components/requirejs/require.js"></script>
+</body>
+</html>

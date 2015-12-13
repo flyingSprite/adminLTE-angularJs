@@ -1,0 +1,26 @@
+{
+  "name": "AdminLTE-angular.js",
+  "version": "0.0.0",
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.6"
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.4.0",
+    "angular": "~1.4.8",
+    "angular-route": "~1.4.8",
+    "requirejs": "~2.1.22",
+    "angularAMD": "~0.2.1"
+  },
+  "appPath": "app",
+  "moduleName": "angularDemoTwoApp",
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "less/bootstrap.less",
+        "dist/css/bootstrap.css",
+        "dist/js/bootstrap.js"
+      ]
+    }
+  }
+}
