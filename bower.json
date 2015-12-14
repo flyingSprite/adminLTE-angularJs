@@ -3,7 +3,13 @@
   "version": "0.0.0",
   "dependencies": {
     "jquery": "~2.1.4",
-    "bootstrap": "~3.3.6"
+    "bootstrap": "~3.3.6",
+    "jquery-ui": "~1.11.4",
+    "bootstrap-wysihtml5": "bootstrap3-wysihtml5#*",
+    "daterangepicker": "~1.4.2",
+    "sparkline": "~2.1.2",
+    "iCheck": "icheck#~1.0.2",
+    "jvectormap": "~2.0.4"
   },
   "devDependencies": {
     "angular-mocks": "^1.4.0",

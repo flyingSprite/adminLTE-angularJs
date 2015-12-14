@@ -1,4 +1,4 @@
-define(['app'], function (app) {
+define(['app', 'dashboard'], function (app) {
   app.controller('HomeController', function ($scope) {
     $scope.message = 'Message from HomeController';
   });
